@@ -7,7 +7,7 @@ pattern = "(2015/\d\d?/\d \d\d?:\d\d - )((?s).*)"
 name_msglen_map = {}
 name_chatcount_map = {}
 date_name_msg_map = {}
-name = msg = None
+name = msg = ""
 with open("Local_muchass.txt", 'r') as chat_file:
     while True:
         line = chat_file.readline()
