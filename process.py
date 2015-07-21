@@ -2,7 +2,8 @@ import simplejson
 import re
 
 
-pattern = "(2015/\d\d?/\d \d\d?:\d\d - )((?s).*)"
+#pattern = "(2015/\d\d?/\d \d\d?:\d\d - )((?s).*)"
+pattern = "([\d/\\:,\sapm]* - )((?s).*)"
 
 name_msglen_map = {}
 name_chatcount_map = {}
